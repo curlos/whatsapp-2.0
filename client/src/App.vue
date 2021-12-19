@@ -1,20 +1,20 @@
 <template>
-  <Sidebar />
+  <router-view></router-view>
 </template>
 
 <script>
-import Sidebar from './components/Sidebar'
 
 export default {
   name: 'App',
-  components: {
-    Sidebar
-  }
 }
 </script>
 
 <style>
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  max-height: 100vh;
 }
 </style>
